@@ -16,7 +16,21 @@
           <a href="rabbit320.mp4">link to the video></a> instead
         </p>
       </video>
-      <!--Audio-->
+
+      <!--Audio | supports every attribute that video does except for poster and width and height-->
+      <audio controls>
+        <source src="" type="audio/mp3" />
+        <source src="" type="audio/ogg" />
+        <p>Text for if audio don't work</p>
+      </audio>
+
+      <!--VTT or Video Text Tracks-->
+      <!--HTML element for things such as subtitles, captions, and timed descriptions-->
+      <!-- <video controls>
+            <source src="example.mp4" type="video/mp4">
+            <source src="example.webm" type="video/webm">
+            <track kind="subtitles" src="subtitles_en.vtt" srclang="en">
+        </video> -->
     </section>
   </body>
 </html>
