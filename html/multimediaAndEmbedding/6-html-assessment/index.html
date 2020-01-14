@@ -105,7 +105,7 @@
       <h1>Mozilla</h1>
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
-      <img src="firefox_logo-only_RGB_120.png" alt="firefox logo" />
+      <img src="firefox_logo-only_RGB-120w.png" alt="firefox logo" />
     </header>
 
     <main>
@@ -149,10 +149,13 @@
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
           <img
-            srcset="firefox-addons_120.jpg 120w, firefox-addons.jpg 400w"
-            sizes="(max-width: 200px) 120px, 400px"
-            src="firefox-addons.jpg"
-            alt="Firefox addons image representation"
+            srcset="
+              firefox_logo-only_RGB-120w.png 120w,
+              firefox_logo-only_RGB-400w.png 400w
+            "
+            sizes="(max-width: 500px) 120px, 400px"
+            src="firefox_logo-only_RGB.png"
+            alt="Download Firefox"
           />
         </a>
         <a href="https://www.mozilla.org/">
@@ -169,24 +172,24 @@
         </a>
         <a href="https://addons.mozilla.org/">
           <img
-            srcset="
-              firefox_logo-only_RGB_120.png  120w,
-              firefox_logo-only_RGB_400.png  400w,
-              firefox_logo-only_RGB.png     1200w
-            "
-            sizes="(max-width: 200px) 120px, 400px, 1200px"
-            src="firefox_logo-only_RGB.png"
-            alt="Mozilla's logo"
+            srcset="firefox-addons_120.jpg 120w, firefox-addons.jpg 400w"
+            sizes="(max-width: 200px) 120px, 400px"
+            src="firefox-addons.jpg"
+            alt="Firefox addons image representation"
           />
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img />
+          <img src="mdn.svg" />
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <picture>
+          <source media="(max-width: 600px" ) srcset="red-panda-small.jpg" />
+          <img src="red-panda.jpg" alt="a red panda" />
+        </picture>
       </div>
     </main>
   </body>
