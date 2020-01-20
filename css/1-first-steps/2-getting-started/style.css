@@ -15,10 +15,26 @@ li em {
   color: rebeccapurple;
 }
 
-h1 + p {
+h1 + section + p {
   font-size: 200%;
 }
 
-p span {
-  color: yellow;
+a:link {
+  font-weight: bold;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body ul li {
+  color: blue;
+}
+
+body h1 + section p span {
+  color: red;
 }
