@@ -1,0 +1,17 @@
+body {
+  color: green;
+}
+
+.my-class-1 a {
+  color: inherit;
+}
+
+/* Initial value for color property of the document is black*/
+.my-class-2 a {
+  color: initial;
+}
+
+/*Since the color property is naturally inherited, color will have value inherit here*/
+.my-class-3 a {
+  color: unset;
+}
