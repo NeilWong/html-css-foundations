@@ -9,6 +9,6 @@ div div li a {
   color: yellow;
 }
 
-#outer #inner .nav a {
+#outer #inner a {
   background-color: inherit;
 }
