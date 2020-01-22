@@ -2,6 +2,7 @@ body {
   color: green;
 }
 
+/* Color */
 .my-class-1 a {
   color: inherit;
 }
@@ -14,4 +15,29 @@ body {
 /*Since the color property is naturally inherited, color will have value inherit here*/
 .my-class-3 a {
   color: unset;
+}
+
+blockquote {
+  background-color: red;
+  border: 2px solid green;
+}
+
+.fix-this {
+  all: unset;
+}
+
+#winning {
+  background-color: red;
+  border: 1px solid black;
+}
+
+.better {
+  background-color: gray;
+  border: none !important;
+}
+
+p {
+  color: white;
+  background-color: blue;
+  padding: 5px;
 }
