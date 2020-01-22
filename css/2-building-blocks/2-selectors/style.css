@@ -1,0 +1,20 @@
+span {
+  background-color: yellow;
+}
+
+strong,
+em {
+  color: rebeccapurple;
+}
+
+a:hover {
+  color: yellow;
+}
+
+p::first-line {
+  color: red;
+}
+
+div > p {
+  color: green;
+}
