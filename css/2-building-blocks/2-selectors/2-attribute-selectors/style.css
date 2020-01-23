@@ -1,0 +1,51 @@
+.sec_1 li[class] {
+  font-size: 200%;
+}
+
+.sec_1 li[class="a"] {
+  background-color: yellow;
+}
+
+.sec_1 li[class~="a"] {
+  color: red;
+}
+
+/*Selects classes starting with character a*/
+.sec_2 li[class^="a"] {
+  font-size: 250%;
+}
+
+/*Selects classes ending with character a */
+.sec_2 li[class$="a"] {
+  background-color: gray;
+}
+
+/* Selects classes matching any value where a appears anywhere in the string */
+.sec_2 li[class*="a"] {
+  color: red;
+}
+
+.sec_3 li[class^="a"] {
+  background-color: yellow;
+}
+
+/* Case insensitive */
+.sec_3 li[class^="a" i] {
+  color: red;
+}
+
+a {
+  border: 5px solid grey;
+}
+
+a[title] {
+  border-color: pink;
+}
+
+a[href*="contact"] {
+  border-color: orange;
+}
+
+a[href^="https"] {
+  border-color: green;
+}
