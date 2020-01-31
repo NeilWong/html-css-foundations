@@ -1,0 +1,18 @@
+article p::first-line {
+  font-weight: bold;
+  color: red;
+  font-size: 120%;
+}
+
+.box::before {
+  content: "Extra content added before other content added in via CSS ::before";
+  display: block;
+  width: 350px;
+  height: 50px;
+  background-color: rebeccapurple;
+  border: 1 px solid black;
+}
+
+.box::after {
+  content: "Extra content added AFTER other content added in via CSS ::after";
+}
