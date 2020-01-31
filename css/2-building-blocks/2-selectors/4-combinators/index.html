@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta title="Combinator Selectors" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        Combinators
+      </h1>
+    </header>
+    <main>
+      <article>
+        <h2>Descendant Selector</h2>
+        <div class="box">
+          <p>Text in a box</p>
+        </div>
+        <p>Text outside a box</p>
+      </article>
+      <article>
+        <h2>Child Combinator</h2>
+        <ul>
+          <li>Unordered Item 1</li>
+          <li>Unordered Item 2</li>
+          <ol>
+            <li>Ordered Item 1</li>
+            <li>Ordered Item 2</li>
+          </ol>
+          <li>Unordered Item 3</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Adjacent Siblings</h2>
+        <p>P content immediately adjacent/after an h2 tag and is styled</p>
+        <p>P content not immediately after h2 tag</p>
+      </article>
+      <article>
+        <h2 class="general">General Sibling</h2>
+        <p>P content styled</p>
+        <p>P content also styled</p>
+      </article>
+    </main>
+  </body>
+</html>
+`
