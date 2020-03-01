@@ -1,0 +1,55 @@
+.box {
+  background-color: white;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+}
+
+span {
+  background-color: rgba(255, 255, 255.5);
+}
+
+.a {
+  background-image: url(./balloons.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  height: 650px;
+  width: 800px;
+}
+
+.b {
+  background-image: url(./star.png);
+  background-repeat: no-repeat;
+  background-position: top 10px right 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.c {
+  background: linear-gradient(to right, #283048, #959398);
+  height: 500px;
+  width: 500px;
+}
+
+.d {
+  background-image: url(./big-star.png), url(./star.png);
+  background-repeat: repeat-y, repeat-x;
+  background-position: right center, center bottom;
+  height: 300px;
+  width: 300px;
+}
+
+.e {
+  background: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0.2) 39%,
+        rgba(51, 56, 57, 1) 96%
+      )
+      center center / 400px 200px no-repeat,
+    url(big-star.png) center no-repeat, rebeccapurple;
+
+  height: 300px;
+  width: 300px;
+}
